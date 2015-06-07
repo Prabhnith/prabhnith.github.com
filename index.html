@@ -67,13 +67,17 @@
             </section>
             <div class="sd-content">
             <ul>
-              <li class="share-twitter">
-                <a rel="nofollow" class="share-twitter sd-button share-icon" href="https://prabhnith.github.io/?share=twitter&amp;nb=1" title="Click to share on Twitter" id="sharing-twitter-1">
-                  <span>Twitter</span></a>
-              </li>
-              <li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="https://prabhnith.github.io/?share=facebook&amp;nb=1" title="Share on Facebook" id="sharing-facebook-1"><span>Facebook</span></a></li>
-              <li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="https://prabhnith.github.io/?share=google-plus-1&amp;nb=1" title="Click to share on Google+" id="sharing-google-1"><span>Google</span></a></li><li class="share-end"></li>
-              </ul>
+              
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
           </div>
           </body>
           </html>
